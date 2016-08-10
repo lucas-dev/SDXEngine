@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	    <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div class="ld">
+			<div class="ld__background">
+				<div class="ld__background--top"></div>
+				<div class="ld__background--bottom"></div>
+			</div>
+			<div class="progress">
+	            <div class="indeterminate"></div>
+	        </div>
+	        <div class="ld__content">
+				<div class="ld__content__title">
+					<span>SDXEngine</span>
+					<span class="ld__content__title__icon zmdi zmdi-info-outline"></span>
+				</div>
+				<div class="ld__content__info"><span></span></div>
+				<div class="ld__content__search">
+					<div class="ld__content__search__hint">Ingrese un término de búsqueda</div>
+					<div class="ld__content__search__field">
+						<input type="text" class="ld__content__search__field" />
+						<div class="ld__content__search__field__button">
+							<span class="zmdi zmdi-search"></span>
+						</div>
+					</div>
+				</div>
+				<div class="ld__content__result">
+					<div class="ld__content__result__message hide">No se han encontrado resultados</div>
+					<div class="ld__content__result__table hide">
+						<table id="sdxTable" class="display" cellspacing="0" width="100%">
+					        <thead>
+					            <tr>
+					                <th>Titulo</th>
+					                <th>URL</th>
+					                <th>Descripción</th>
+					                <th>Comentarios</th>
+					                <th>Formato</th>
+					                <th>Usuario</th>
+					                <th>Fecha</th>
+					                <th>Descarga</th>
+					                <th>Comments</th>
+					            </tr>
+					        </thead>
+					        <tfoot>
+					            <tr>
+					                <th>Titulo</th>
+					                <th>URL</th>
+					                <th>Descripción</th>
+					                <th>Comentarios</th>
+					                <th>Formato</th>
+					                <th>Usuario</th>
+					                <th>Fecha</th>
+					                <th>Descarga</th>
+					                <th>Comments</th>
+					            </tr>
+					        </tfoot>
+					        <tbody></tbody>
+					    </table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/datatables.min.js"></script>
+		<script type="text/javascript" src="js/SDXEngine.js"></script>
+		<script type="text/javascript" src="js/jquery.highlight-5.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		
+	</body>
+</html>

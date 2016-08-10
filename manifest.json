@@ -1,0 +1,22 @@
+{
+  "name": "SDXEngine",
+  "description": "encontrá subtitulos más rápidamente dentro de subdivx.com",
+  "version": "1.5",
+  "manifest_version": 2,
+  "icons": {
+    "48": "img/logo/48x48.png",
+    "72": "img/logo/72x72.png",
+    "96": "img/logo/96x96.png",
+    "128": "img/logo/128x128.png",
+    "144": "img/logo/144x144.png",
+    "192": "img/logo/192x192.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["js/chrome.js"]
+    }
+  },
+  "permissions": [
+    "http://www.subdivx.com/"
+  ]
+}
